@@ -51,7 +51,10 @@ git rm --cached index.html
 git add *.html              //will add all .html files
 git add .                   //add all files
 
-
+git commit                  //will open vi editor
+                            //hit 'i' for in order to insert text
+                            //any lines with '#' at the beginning are comments
+                            //esc, shift, ':' 'wq' to save quit
 
 
 
