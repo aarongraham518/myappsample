@@ -74,6 +74,9 @@ git checkout logout         //will change from master branch to login branch
 change the index.html file, git add, git commit, then switch back to master branch and notice the
 change from login branch disappear.
 
+while in master:
+git merge login
+
 
             
 
