@@ -81,6 +81,9 @@ git merge login
 git remote add origin https://github.com/aarongraham518/myappsample.git     //create remote repo
 git remote                  //list remote repositories
 
+git remote will list out:
+origin                      //which is the master branch
+
 
 
 
