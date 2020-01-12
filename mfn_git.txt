@@ -85,6 +85,16 @@ git remote will list out:
 origin                      //which is the master branch
 
 touch README.md             //for users who wish to read directions or info about repo
+git push                    //to push to remote repo
+
+to clone repo:              //click clone or download 
+https://github.com/aarongraham518/myappsample.git   repo url will be provided
+
+then use url provide to clone remote repo:
+git clone https://github.com/aarongraham518/myappsample.git
+
+
+
 
 
 
