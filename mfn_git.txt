@@ -56,6 +56,7 @@ git commit                  //will open vi editor
                             //any lines with '#' at the beginning are comments
                             //esc, shift, ':' 'wq' to save quit
 
+git commit -m "comments"    //avoids the vi editor step
 
 
 
