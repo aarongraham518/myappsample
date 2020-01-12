@@ -64,6 +64,8 @@ touch .gitignore            //to create file and place file names or directories
                                 log.txt
                                 /dir2
                                 *.txt
+Creating a branch:
+git branch <branchname>
 
             
 
