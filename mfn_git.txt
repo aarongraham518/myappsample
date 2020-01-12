@@ -66,6 +66,7 @@ touch .gitignore            //to create file and place file names or directories
                                 *.txt
 Creating a branch:
 git branch <branchname>
+git checkout <branchname>   //change to different branch 
 
             
 
