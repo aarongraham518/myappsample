@@ -84,6 +84,7 @@ git remote                  //list remote repositories
 git remote will list out:
 origin                      //which is the master branch
 
+touch README.md             //for users who wish to read directions or info about repo
 
 
 
