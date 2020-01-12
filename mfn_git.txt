@@ -1,0 +1,58 @@
+Installing Git
+
+Linux(Debian):
+sudo apt-get install git
+
+Linux(Fedora):
+sudo yum install git
+
+Mac:
+http://git-scm.com/download/Mac
+
+windows:
+http://git-scm.com/download/win 
+
+COMMANDS...
+
+git init                //intialize Local Git Repository
+git add <file>          //Add File(s) To index
+git status              //Check status of working tree (staging area)
+git commit              //Commit changes in index
+
+git push                //Push to remote Repository (githug/bitbuckit)
+git pull                //Pull Latest From remote Repository
+git clone               //Clone Repository into a New Directory
+
+
+$ git config --global user.name 'Aaron Graham'
+$ git config --global user.email 'aarongraham518@gmail.com'
+
+ git add index.html
+
+---------------------------example after "git add index.html" command--------------
+Aaron@LAPTOP-D0C420R0 MINGW64 ~/Desktop/myapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        app.js
+        mfn_git.txt
+
+to remove the index.html file that is currently ready to be committed:
+git rm --cached index.html
+
+git add *.html              //will add all .html files
+git add .                   //add all files
+
+
+
+
+
+
