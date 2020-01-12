@@ -58,5 +58,13 @@ git commit                  //will open vi editor
 
 git commit -m "comments"    //avoids the vi editor step
 
+touch .gitignore            //to create file and place file names or directories that we do not
+                            //want to include in our git add
+                            //example...
+                                log.txt
+                                /dir2
+                                *.txt
+
+            
 
 
